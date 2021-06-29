@@ -20,6 +20,12 @@ include('includes/navbar.php');
 .breadcrumb-height {
     height: 250px;
 }
+.myaccount-tab-content {
+   
+    padding: 30px;
+    width: 1000px;
+   
+}
 </style>
         <!-- Begin Main Content Area -->
         <main class="main-content">
@@ -86,7 +92,7 @@ include('includes/navbar.php');
                                                     <thead>
                                                         <tr>
                                                         
-                                                            <th>COUNTRY</th>
+                                                            <!-- <th>COUNTRY</th> -->
                                                             <th>NAME</th>
                                                             <th>EMAIL</th>
                                                             <th>PHONE</th>
@@ -94,8 +100,8 @@ include('includes/navbar.php');
                                                             <th>PRODUCT</th>
                                                             <th>PRICE</th>
                                                             <th>DATE</th>
-                                                            <th>PAYMENTMETHOD </th>
-                                                            <th></th>
+                                                            <th>PAYMENT</th>
+                                                            <th>Cancel</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>
@@ -106,7 +112,7 @@ include('includes/navbar.php');
                                                                 {
                                                         ?>
                                                         <tr>
-                                                            <td><?php echo $row['country'];?></td>
+                                                            
                                                             <td><?php echo $row['name'];?></td>
                                                             <td><?php echo $row['email'];?>.</td>
                                                             <td><?php echo $row['phone'];?></td>
@@ -141,13 +147,13 @@ include('includes/navbar.php');
                                             <div class="col">
                                                 <h4 class="small-title">BILLING ADDRESS</h4>
                                                 <address>
-                                                    1234 Heaven Stress, Beverly Hill OldYork UnitedState of Lorem
+                                                   Butwal, Rupandehi, Nepal
                                                 </address>
                                             </div>
                                             <div class="col">
                                                 <h4 class="small-title">SHIPPING ADDRESS</h4>
                                                 <address>
-                                                    1234 Heaven Stress, Beverly Hill OldYork UnitedState of Lorem
+                                                   Butwal, Rupandehi, Nepal
                                                 </address>
                                             </div>
                                         </div>
