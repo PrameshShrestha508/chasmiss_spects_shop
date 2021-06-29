@@ -159,45 +159,36 @@ include('includes/navbar.php');
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="account-details" role="tabpanel" aria-labelledby="account-details-tab">
+                                <!-- <div class="tab-pane fade" id="account-details" role="tabpanel" aria-labelledby="account-details-tab">
                                     <div class="myaccount-details">
-                                        <form action="#" class="myaccount-form">
+                                        <form action="forget-password.php" class="myaccount-form" method="post">
                                             <div class="myaccount-form-inner">
                                                 <div class="single-input single-input-half">
-                                                    <label>First Name*</label>
-                                                    <input type="text">
+                                                    <label>User Name*</label>
+                                                    <input type="text" name="name">
                                                 </div>
-                                                <div class="single-input single-input-half">
-                                                    <label>Last Name*</label>
-                                                    <input type="text">
+                                                
+                                                <div class="single-input">
+                                                    <label>Current Password</label>
+                                                    <input type="password" name="old_pass">
                                                 </div>
                                                 <div class="single-input">
-                                                    <label>Email*</label>
-                                                    <input type="email">
-                                                </div>
-                                                <div class="single-input">
-                                                    <label>Current Password(leave blank to leave
-                                                        unchanged)</label>
-                                                    <input type="password">
-                                                </div>
-                                                <div class="single-input">
-                                                    <label>New Password (leave blank to leave
-                                                        unchanged)</label>
-                                                    <input type="password">
+                                                    <label>New Password </label>
+                                                    <input type="password" name="new_pass">
                                                 </div>
                                                 <div class="single-input">
                                                     <label>Confirm New Password</label>
-                                                    <input type="password">
+                                                    <input type="password" name="re_pass">
                                                 </div>
                                                 <div class="single-input">
-                                                    <button class="btn btn-custom-size lg-size btn-primary" type="submit">
+                                                    <button class="btn btn-custom-size lg-size btn-primary" name="re_password" type="submit">
                                                         <span>SAVE CHANGES</span>
                                                     </button>
                                                 </div>
                                             </div>
                                         </form>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
