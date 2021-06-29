@@ -49,13 +49,21 @@
                                         <i class="pe-7s-look"></i>
                                     </a>
                                 </li>
+                                <li>
+                                
+                                <li>
+                                    <a href="checkout-direct.php?itemno=<?php echo $row['glass_id']; ?>" data-tippy="Order Now" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                                         <i class="pe-7s-shopbag"></i>
+                                    </a>
+                                </li>                                  
+                                                               
                                 <!-- <li>
                                     <a href="wishlist.html" data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
                                         <i class="pe-7s-like"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="compare.html" data-tippy="Add to compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                                    <a href="compare.html" data-tippy="Order Now" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
                                         <i class="pe-7s-shuffle"></i>
                                     </a>
                                 </li> -->
@@ -128,16 +136,17 @@
                                         <i class="pe-7s-look"></i>
                                     </a>
                                 </li>
-                                <!-- <li>
-                                    <a href="wishlist.html" data-tippy="Add to wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
-                                        <i class="pe-7s-like"></i>
+                                
+                                <a href="checkout-direct.php?itemno=<?php echo $row['glass_id']; ?>" data-tippy="Order Now" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                                         <i class="pe-7s-shopbag"></i>
                                     </a>
-                                </li>
-                                <li>
-                                    <a href="compare.html" data-tippy="Add to compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
+                                </li> 
+
+                                <!-- <li>
+                                    <a href="compare.html" data-tippy="Order Now" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder">
                                         <i class="pe-7s-shuffle"></i>
                                     </a>
-                                </li> -->
+                                </li>  -->
                             </ul>
                         </div>
                     </div>
