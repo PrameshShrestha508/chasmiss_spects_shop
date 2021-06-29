@@ -1,3 +1,8 @@
 .banner_area{
     margin-top:100px;
 }
+
+.breadcrumb-height {
+    height: 200px;
+    margin-top: 10px;
+}
